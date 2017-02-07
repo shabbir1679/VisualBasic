@@ -2,13 +2,26 @@ Module Module1
 
     Sub Main()
 
-        Dim x As Integer
-        Dim y As Integer
+        'Dim x As Integer
+        'Dim y As Integer
 
-        x = 7
-        y = x + 3
+        'x = 7
+        'y = x + 3
 
-        Console.WriteLine(y)
+        'Console.WriteLine(y)
+        'Console.ReadLine()
+
+        Console.WriteLine("What is your name")
+        Console.Write("Type your first name")
+        Dim myFirstName As String
+
+        myFirstName = Console.ReadLine()
+
+        Console.WriteLine("Type your last name:")
+        Dim myLastName As String
+        myLastName = Console.ReadLine()
+
+        Console.WriteLine("Hello, " & myFirstName & " " & myLastName)  '& is string concatenation
         Console.ReadLine()
 
     End Sub
