@@ -1,0 +1,24 @@
+Module Module1
+
+    Sub Main()
+
+        Console.WriteLine("Sam's big giveaway!")
+        Console.Write("Would you prefer what is behind the door number 1, 2, or 3?")
+        Dim uservalue As String = Console.ReadLine()
+
+        Dim message As String = " "
+        If uservalue = "1" Then
+            message = "You won a new car!"
+
+        End If
+
+        Console.WriteLine(message)
+        Console.ReadLine()
+
+
+
+
+
+    End Sub
+
+End Module
