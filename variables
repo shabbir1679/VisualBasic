@@ -13,14 +13,14 @@ Module Module1
 
         Console.WriteLine("What is your name")
         Console.Write("Type your first name")
-        Dim myFirstName As String
-
+        'Dim myFirstName As String   ' the visual basic is case insensitive
+        Dim myFirstName As String  '= "Sam"
         myFirstName = Console.ReadLine()
 
         Console.WriteLine("Type your last name:")
-        Dim myLastName As String
-        myLastName = Console.ReadLine()
-
+        'Dim myLastName As String
+        'myLastName = Console.ReadLine()
+        Dim myLastName As String = Console.ReadLine()
         Console.WriteLine("Hello, " & myFirstName & " " & myLastName)  '& is string concatenation
         Console.ReadLine()
 
