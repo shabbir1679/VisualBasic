@@ -10,6 +10,13 @@ Module Module1
         If uservalue = "1" Then
             message = "You won a new car!"
 
+        ElseIf uservalue = "2" Then
+            message = "You on a new boat"
+        ElseIf uservalue = "3" Then
+            message = "you won a new bus"
+        Else
+            message = "Bad input please try again"
+
         End If
 
         Console.WriteLine(message)
