@@ -1,0 +1,43 @@
+#Region " IMPORTS "
+Imports System.Data
+Imports System.Data.SqlClient
+#End Region
+
+
+#Region " PROPERTIES "
+    Public Property IncidentID() As String
+        Get
+            Return _IncidentID
+        End Get
+        Set(value As String)
+            _IncidentID = value
+        End Set
+    End Property
+
+    Public Property IncidentDate() As String
+        Get
+            Return _IncidentDate
+        End Get
+        Set(value As String)
+            _IncidentDate = value
+        End Set
+    End Property
+
+    Public Property IncidentCategory() As String
+        Get
+            Return _IncidentCategory
+        End Get
+        Set(value As String)
+            _IncidentCategory = value
+        End Set
+    End Property
+
+    Public Property IncidentDescription() As String
+        Get
+            Return _IncidentDescription
+        End Get
+        Set(value As String)
+            _IncidentDescription = value
+        End Set
+    End Property
+#End Region
